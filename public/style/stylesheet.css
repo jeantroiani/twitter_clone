@@ -1,0 +1,168 @@
+/*gray = #66757f*/
+/*lightgray = #a3acb2*/
+/*background sky = #c0deed */
+body{
+	font-size: 12px;
+	font-family: helvetica;
+	font-weight: lighter;
+	padding: 0px;
+	background-image:  url('../images/cloudsbackground.png');
+	background-repeat: repeat-x;
+	background-color: #c0deed;
+}
+
+#container{
+	max-width: 1150px;
+	margin: 0px auto;
+	display: absolute;
+}
+
+a{
+	text-decoration: none;
+	height: 40px;
+}
+
+/*Navigation Bar*/
+
+#background_header{
+	background-color: white;
+	height: 45px;
+	width: 100%;
+}
+
+header{
+	text-align: center;
+	position: relative;
+	height: 45px;
+	width: 1150px;
+	background: url('../images/twitter_header.png') center center;
+	background-repeat: no-repeat;
+	background-color: white;
+	margin: 0px auto;
+}
+
+#nav_left{
+	display: inline-block;
+	position: relative;
+	left: -10%;
+	top: -5px;
+	width: 400px;
+}
+
+
+#nav_right{
+	display: inline-block;
+	position: relative;
+	right: -10%;
+	top: -5px;
+	width: 400px;
+}
+
+#home{
+	width: 60px;
+}
+
+#notification{
+
+	width: 60px;
+}
+
+#discover{
+	width: 90px;
+}
+
+#me{
+	width: 90px;
+}
+
+nav a img{
+	position: relative;
+	top: 6px;
+}
+
+nav a {
+	height: 60px;
+	padding: 3px;
+	position: relative;
+	font-size: 1.1em;
+	color: #66757f;
+}
+
+ a:hover{
+ 	position: relative;
+ 	padding-bottom: 13px;
+	background:  url('../images/nav_hover.png') ;
+	background-position: center bottom;
+	background-repeat: repeat-x;
+}
+ a:focus{
+ 	position: relative;
+ 	padding-bottom: 13px;
+	background:  url('../images/nav_hover.png') ;
+	background-position: center bottom;
+	background-repeat: repeat-x;
+}
+
+form{
+	position: relative;
+	top:-10px;
+	width: 200px;
+	display: inline-block;
+}
+#search_button{
+	cursor: pointer;
+	top: 8px;
+	right: -148px;
+	position: relative;
+	border: none;
+	height: 32px;
+	width: 8%;
+	background: url('../images/search.png') ;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#nav_right input{
+	display: inline-block;
+	position: relative;
+	top: 7px;
+	font-weight: lighter;
+	font-size: 1.2em;
+	color: white;
+	border-radius: 40px 40px 40px 40px;
+	border: none;
+	background-color: #a3acb2;
+	padding-left: 8px;
+	height: 30px;
+	width: 140px;
+}
+
+#nav_right input:focus{
+	outline: 0;
+	background-color: #66757f;
+}
+
+
+::-webkit-input-placeholder {
+   color: #d8dbde;
+   font-size: 0.8em
+ }
+
+
+
+#search_button{
+	position: absolute;
+	right: 18%;
+	outline: 0;
+	display: inline-block;
+}
+
+#user_information{
+	position: relative;
+	top: 30px;
+	width: 320px;
+	height: 300px;
+	float: left;
+	background-color: white
+}
+
